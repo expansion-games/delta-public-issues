@@ -1,4 +1,4 @@
-name: "[PUBLIC] Task"
+name: "Generic Task"
 description: "Create a generic task item"
 projects: ["expansion-games/1"]
 type: "Task"
@@ -7,7 +7,8 @@ body:
     attributes:
       value: |
         ## :warning: Public Repository
-        Your issue will be created in a public repository. Do not share sensitive details in this repository
+        Your issue will be created in the public issues repository. While issues are public by default, some issues are not appropriate for this repository. 
+        Create an [internal issue](https://github.com/expansion-games/site-delta/issues/new/choose) instead if there are sensitive or otherwise confidential details.
   - type: textarea
     id: acceptance-criteria
     attributes:
