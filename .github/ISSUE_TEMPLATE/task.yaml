@@ -1,0 +1,29 @@
+name: [PUBLIC] Task
+description: Create a generic task item
+projects: ["expansion-games/1"]
+type: "Task"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## :warning: Public Repository
+        Your issue will be created in a public repository. Do not share sensitive details in this repository
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What needs to be completed before the task can be defined as "done"?
+      value: |
+        - User should be able to ...
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Details
+      description: What
+      value: |
+        - As a ... I want to ... so that ...
+    validations:
+      required: false
