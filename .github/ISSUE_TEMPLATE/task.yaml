@@ -1,5 +1,5 @@
-name: [PUBLIC] Task
-description: Create a generic task item
+name: "[PUBLIC] Task"
+description: "Create a generic task item"
 projects: ["expansion-games/1"]
 type: "Task"
 body:
@@ -11,8 +11,8 @@ body:
   - type: textarea
     id: acceptance-criteria
     attributes:
-      label: Acceptance Criteria
-      description: What needs to be completed before the task can be defined as "done"?
+      label: "Acceptance Criteria"
+      description: "What needs to be completed before the task can be defined as \"done\"?"
       value: |
         - User should be able to ...
         ...
@@ -21,8 +21,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Task Details
-      description: What
+      label: "Task Details"
+      description: "Any additional details to provide to the developer"
       value: |
         - As a ... I want to ... so that ...
     validations:
